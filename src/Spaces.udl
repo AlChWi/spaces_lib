@@ -1,0 +1,7 @@
+namespace Spaces {
+    TestStruct hello_from_rust();
+};
+
+dictionary TestStruct {
+    string text;
+};

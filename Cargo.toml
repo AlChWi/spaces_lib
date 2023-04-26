@@ -1,0 +1,14 @@
+[package]
+name = "spaces_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uniffi = { version = "0.23.0" }
+
+[build-dependencies]
+uniffi = { version = "0.23.0", features = ["build"] }
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+name = "spaces_lib"
